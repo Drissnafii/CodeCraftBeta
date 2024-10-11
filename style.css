@@ -7,15 +7,14 @@
 -------------------------------- */
 html,
 body {
-  font-family: "Lato", sans-serif;
-  font-weight: 300;
+background: linear-gradient(#243642, #387478, #629584, #E2F1E7);
 }
 
 h2 {
   font-size: 100px;
   position: relative;
-  color: #5b85c0;
-  background-image: -webkit-linear-gradient(90deg, #a558d4 0%, #34619e 80%);
+  color: #6395db;
+  background-image: -webkit-linear-gradient(90deg, #e1e5eb 0%, #3cc580 80%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-animation: hue 60s infinite linear;
@@ -28,7 +27,7 @@ p.intro-des {
   margin-top: 50px;
 }
 p.intro-des a {
-  color: #3c3c3c;
+  color: #ebdee9;
 }
 p.intro-des span {
   font-size: 15px;
@@ -103,7 +102,7 @@ p.intro-des span {
 
 .active:after {
   height: 2px !important;
-  background: #e74c3c !important;
+  background: #6f5a58 !important;
 }
 
 section.page-container {
