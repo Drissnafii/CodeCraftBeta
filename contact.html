@@ -3,42 +3,33 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Contact Us</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <section class="page-container" id="contact">
-	  <section class="section-container">
-	    <h4>Get in Touch</h4>
-        <p>If you have any questions or feedback, please fill out the form below.</p>
-        <form action="#" method="post">
-            <label for="name">Name:</label><br>
-            <input class="button-container wave-black" type="text" id="name" name="name" required="" placeholder="Your Name">
-            <br>
-
-
-            <label for="email">Email:</label><br>
-            <input class="button-container wave-black" type="email" id="email" name="email" required="" placeholder="Your Email">
-            <br>
-
-
-            <label for="message">Message:</label><br>
-            <textarea class="button-container wave-black" id="message" name="message" required="" placeholder="Your Message" value="lorem">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam, sequi reiciendis id ut excepturi repellat quae, mollitia impedit accusantium aspernatur deleniti quia earum debitis! Laudantium, sint quo dicta qui totam atque deserunt nostrum natus, ipsa cupiditate veritatis architecto alias ut dolore nesciunt ad labore assumenda! Alias quaerat quibusdam minima.</textarea>
-            <br>
-
-            
-            <div class="button-container button-water-fill wave-black">
-                <div class="filler">
-                    <div class="button">
-                        <button>Send Message</button>
-                    </div>
-                </div>
-            </div>
-        </form>
-
-    	
-	    	
-	  </section>
-	</section>
+    <div class="section-container">
+      <h2>Get in Touch</h2>
+      <button id="backHome" class="x"><a href="index.html">Back Home</a> ❯</button>
+      <p class="intro-des">If you have any questions or feedback, please fill out the form below.</p>
+      <form action="#" method="post" class="contact-form">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required placeholder="Your Name">
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required placeholder="Your Email">
+        </div>
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required placeholder="Your Message"></textarea>
+        </div>
+        <div class="button-container">
+          <button type="submit" class="button neon">Send Message</button>
+        </div>
+      </form>
+    </div>
+  </section>
 </body>
 </html>
