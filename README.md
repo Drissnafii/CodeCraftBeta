@@ -34,5 +34,3 @@ This project aims to transform a static web page into a set of interconnected dy
 
 - Improve user experience through better navigation and content organization.
 - Make information more accessible and easier to understand.
-
-By achieving these objectives, this project will create a more user-friendly and informative web experience for visitors.
