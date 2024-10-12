@@ -9,17 +9,43 @@ html,
 body {
   font-family: "Lato", sans-serif;
   font-weight: 300;
+  background: linear-gradient(135deg, #243642, #387478, #284d40, #E2F1E7);
 }
+
+:root {
+  --primary-color: #3cc580;
+  --secondary-color: #6395db;
+  --background-gradient: linear-gradient( #243642, #387478, #284d40, #072930);
+  --text-color: #333;
+  --link-color: #ac1fd3;
+  --navbar-bg: rgba(255, 255, 255, 0.9);
+  --navbar-text: #222;
+  --navbar-active: #2eaabd;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+  background: var(--background-gradient);
+  color: var(--text-color);
+  line-height: 1.6;
 
 h2 {
   font-size: 100px;
   position: relative;
-  color: #5b85c0;
-  background-image: -webkit-linear-gradient(90deg, #a558d4 0%, #34619e 80%);
+  line-height: 1.6;
+  font-family: 'Minecraft', sans-serif;
+  font-weight: 100;
+  
+  /* text gradien */
+  background-image: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  -webkit-animation: hue 60s infinite linear;
+
+  /*the hue effect Animation*/
+  -webkit-animation: hue 10s infinite linear;
+
 }
+
 
 p.intro-des {
   position: relative;
@@ -203,8 +229,9 @@ section.page-container {
 .button-water-fill.wave-black .button {
   color: black;
   background-image: url("https://s32.postimg.org/g5kiaqxit/wave_black.png");
-<<<<<<< HEAD
 }
-=======
+
+img {
+  width: 100%;
+  height: auto;
 }
->>>>>>> d6e0a21dec6dda5f912dd9bb7be0aecbfa67fc6e
