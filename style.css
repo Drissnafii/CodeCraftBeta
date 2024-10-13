@@ -9,10 +9,13 @@ html,
 body {
   font-family: "Lato", sans-serif;
   font-weight: 300;
-  background: linear-gradient(135deg, #243642, #387478, #284d40, #E2F1E7);
+  background: linear-gradient(135deg, #243642, #387478, #2b6d56, #83a990); 
+  background-color: black;
+  margin: 0%;
 }
 
 :root {
+
   --primary-color: #3cc580;
   --secondary-color: #6395db;
   --background-gradient: linear-gradient( #243642, #387478, #284d40, #072930);
@@ -28,6 +31,7 @@ body {
   background: var(--background-gradient);
   color: var(--text-color);
   line-height: 1.6;
+}
 
 h2 {
   font-size: 100px;
@@ -51,13 +55,14 @@ p.intro-des {
   position: relative;
   font-size: 20px;
   line-height: 35px;
-  margin-top: 50px;
+  margin-top: 3px;
+  font-family: 'Mincraft';
 }
 p.intro-des a {
   color: #3c3c3c;
 }
 p.intro-des span {
-  font-size: 15px;
+  font-size: 18px;
 }
 
 .button-row-container {
@@ -132,6 +137,7 @@ p.intro-des span {
   background: #e74c3c !important;
 }
 
+
 section.page-container {
   margin: auto;
   width: 90%;
@@ -145,7 +151,17 @@ section.page-container {
   max-width: 800px;
 }
 #intro .section-container {
-  margin-top: 70px;
+  margin-top: 50px;
+}
+.dima {
+  margin: 100px -0px;
+  width: 90%;
+  max-width: 800px;
+  height: 100vh;
+  position: relative;
+  text-align: left;
+  font-family: 'Courier New', Courier, monospace;
+}
 }
 
 .section-container {
@@ -234,4 +250,5 @@ section.page-container {
 img {
   width: 100%;
   height: auto;
+  box-shadow:  1px 22px 30px #2b6d56;
 }
